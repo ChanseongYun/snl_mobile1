@@ -89,3 +89,32 @@ body {
     color: white;
     margin: 20px 0;
 }
+
+/*미디어 쿼리*/
+@midia screen and (max-width: 360px) {
+    #model1 {
+        width: 320px;
+        left: 50%; /* 왼쪽 위치, 화면의 중앙*/
+        margin-left: -160px; 
+        }
+    #model1 img {
+        width: 100%;
+    }
+
+}
+.menu a, .sub_menu {
+    font-size: 14px;
+    letter-spacing: -2px;
+}
+
+.price, .casting {
+    width: 83.333333333333333%;
+}
+.price th, .casting th {
+    width: 25px;
+}
+
+.price th, .price td, .casting th, .casting td {
+    font-size: 14px;
+    letter-spacing: -1px;
+}
